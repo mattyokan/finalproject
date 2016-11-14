@@ -15,11 +15,13 @@
 
 <body>
     <ul id="dropdown2" class="dropdown-content">
-        <li><a href="#!" class="grey-text text-darken-4">one<span class="black badge">1</span></a>
+        <li><a href="#!" class="grey-text text-darken-4">Google Pixel<span class="new black badge"></span></a>
         </li>
-        <li><a href="#!" class="grey-text text-darken-4">two<span class="new badge black">1</span></a>
+        <li><a href="#!" class="grey-text text-darken-4">iPhone 7</a>
         </li>
-        <li><a href="#!" class="grey-text text-darken-4">three</a>
+        <li><a href="#!" class="grey-text text-darken-4">Galaxy S7</a>
+        </li>
+        <li><a href="#!" class="grey-text text-darken-4">Google Home</a>
         </li>
     </ul>
     <div class="navbar-fixed">
@@ -28,9 +30,9 @@
             <div class="wrapper">
                 <a class="center brand-logo grey-text text-darken-4" href="#">Best Tech of 2016</a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="#" class=" grey-text text-darken-4">Home</a>
+                    <li class="active"><a href="#" class=" grey-text text-darken-4">Home</a>
                     </li>
-                    <li> <a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown2">Filter<i class="material-icons right">arrow_drop_down</i></a>
+                    <li> <a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown2">Reviews<i class="material-icons right">arrow_drop_down</i></a>
                     </li>
                 </ul>
             </div>
@@ -171,7 +173,7 @@
         $(document).ready(function(){
           $(".button-collapse").sideNav();
           $('.modal-trigger').leanModal();
-          $('#aside').pushpin({ top:110, bottom:1080 });  
+          $('#aside').pushpin({ top:110, bottom:1080 });
         })
     </script>
     <!-- bower:js -->
