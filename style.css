@@ -10,3 +10,12 @@
         top: auto !important;
     }
 }
+
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+ol ol li {
+  list-style-type: upper-alpha;
+}
